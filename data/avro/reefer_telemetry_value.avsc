@@ -1,5 +1,5 @@
 {
-    "namespace": "ibm.eda.reefer.telemetry.event",
+    "namespace": "reefer.telemetry.event",
     "name": "telemetry_payload",
     "type": "record",
     "fields" : [
@@ -56,11 +56,11 @@
             "type" : "boolean"
         },
         {
-            "name" : "vent_2",
+            "name" : "fan_2",
             "type" : "boolean"
         },
         {
-            "name" : "vent_3",
+            "name" : "fan_3",
             "type" : "boolean"
         },
         {
